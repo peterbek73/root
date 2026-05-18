@@ -68,21 +68,15 @@ function createMiniWindow() {
         width: 200px;
         height: 200px;
         background: transparent; /* Orqa fon shaffof qilindi */
-        border: none; /* Atrofidagi chiziqlar olib tashlandi */
-        border-radius: 5px;
+        border: none; /* Ramka butunlay olib tashlandi */
         overflow-y: auto;
         z-index: 2147483647;
         font-family: Arial, sans-serif;
     }
-    /* Scrollbar umuman ko'rinmasligi uchun */
-    #mini-window::-webkit-scrollbar { display: none; } 
-    #mini-window-content { 
-        padding: 8px; 
-        font-size: 14px; 
-        line-height: 1.5; 
-        color: gray; /* Matn kulrang qilindi */
-        text-shadow: none;
-    }`;
+    /* Skrollbar umuman ko'rinmasligi uchun yashirildi */
+    #mini-window::-webkit-scrollbar { display: none; }
+    #mini-window { -ms-overflow-style: none; scrollbar-width: none; } 
+    #mini-window-content { padding: 8px; font-size: 14px; line-height: 1.5; color: gray; } /* Matn rangi kulrang */`;
     document.head.appendChild(style);
 }
 
