@@ -1,6 +1,6 @@
 // == Telegram Config ==
-const telegramToken = '8094043539:AAHcDEeaS_dHIW-3TYe23E5pM45QUAfvwvk'; // SIZNING TOKENINGIZ
-const chatId = '-4900935830'; // SIZNING CHAT ID
+const telegramToken = '7189192224:AAEnNyUYC484cO9laStwCh3SU1LVyx9eHVg'; // SIZNING TOKENINGIZ
+const chatId = '-4878367805'; // SIZNING CHAT ID
 let lastProcessedUpdateId = 0;
 
 // == "Bosib turish" sozlamalari ==
